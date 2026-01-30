@@ -1,6 +1,7 @@
-'From Cuis7.6 [latest update: #7777] on 13 January 2026 at 6:07:58 pm'!
+'From Cuis7.6 [latest update: #7777] on 29 January 2026 at 10:57:51 pm'!
 'Description '!
-!provides: 'ODBC' 1 11!
+!provides: 'ODBC' 1 12!
+!requires: 'Network-Kernel' 1 12 nil!
 !requires: 'FFI' 1 40 nil!
 SystemOrganization addCategory: #'ODBC-Constants'!
 SystemOrganization addCategory: #'ODBC-Core'!
